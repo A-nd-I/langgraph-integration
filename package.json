@@ -1,4 +1,7 @@
 {
+  "scripts": {
+      "start": "npx tsx agent.ts"
+  },
   "type": "module",
   "dependencies": {
     "@langchain/community": "^0.3.32",
