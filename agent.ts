@@ -3,9 +3,6 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
-// IMPORTANT - Add your API keys here. Be careful not to publish them.
-process.env.OPENAI_API_KEY = "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";
-//process.env.TAVILY_API_KEY = "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";
 
 import { CheerioWebBaseLoader } from "@langchain/community/document_loaders/web/cheerio";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
